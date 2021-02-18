@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind screens;
+
+@layer utilities {
+  .aspect-16x9 {
+    padding-bottom: 56.25%; /* 16:9 */
+  }
+}
